@@ -83,4 +83,54 @@
 }
 
 .dashboard__three{
+    display: grid;
+    grid-template-rows: 20% 80%; 
+    margin: 0;
+}
+
+.choose__month{
+    border-bottom: 1px solid $line;
+    display: grid;
+    grid-template-columns: 18% 64% 18%;
+    
+    span{
+        @include flex(center, center);
+
+    }
+
+  
+}
+
+.choose__date{
+    padding: .5em;
+}
+
+.date__item{
+    height: 15vh;
+    background-color: $line;
+    display: grid;
+    grid-template-columns: 22% 78%;
+
+    span:nth-child(1){
+        @include flex(center, baseline);
+
+        h1{
+            margin: 0;
+        }
+    }
+
+    span:nth-child(2){
+        display: flex;
+        width: 100%;
+        background-color: red;
+
+        p{
+            justify-self: flex-end;
+            align-self: flex-end;
+            margin: 0;
+        }
+
+      
+    }
+
 }
