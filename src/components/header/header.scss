@@ -1,0 +1,8 @@
+@import '../../scss/config';
+
+header{
+    height: 3em;
+    @include flex(space-between, center);
+    @include padding;
+    border-bottom: 1px solid $line;
+}

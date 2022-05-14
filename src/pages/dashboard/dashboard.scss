@@ -1,0 +1,86 @@
+@import '../../scss/config';
+
+.dashboard{
+    height: calc(100vh - 3.05em);
+    display: grid;
+    grid-template-columns: 25% 60% 15%;
+}
+
+.dashboard__one{
+    border-right: 1px solid $line;
+    display: grid;
+    grid-template-rows: 40% 60%;
+    
+    &__top{
+        border-bottom: 1px solid $line;
+        @include flex(center, center);
+
+
+        div{
+            display: flex;
+            flex-direction: column;
+            width: 90%;
+            row-gap: .5em;
+
+            small{
+                font-weight: 900;
+            }
+
+            input{
+                font-size: 1rem;
+                padding: .2em .5em;
+
+                &:focus{
+                    outline: none;
+                }
+            }
+
+            button{
+                font-size: 1rem;
+                padding: .2em 0;
+                background-color: $black;
+                color: white;
+                cursor: pointer;
+                border: 1px solid $black;
+                transition: background 300ms ease, border 300ms ease;
+
+                &:hover{
+                    background-color: $black2;
+                    border: 1px solid $black2;
+                }
+            }
+        }
+    }
+}
+
+.dashboard__two{
+    border-right: 1px solid $line;
+    padding: 1em;
+    margin: 0;
+}
+
+.task__item{
+    padding: .5em;
+    box-sizing: border-box;
+    background-color: $line;
+    display: grid;
+    grid-template-columns: 5% 95%;
+    height: 20vh;
+    margin-bottom: 1em;
+
+    span:nth-child(2){
+        h3{
+            margin: 0;
+            font-weight: 900;
+        }
+
+        p{
+            color: gray;
+            font-size: .9rem;
+        }
+    }        
+
+}
+
+.dashboard__three{
+}

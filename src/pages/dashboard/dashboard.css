@@ -1,0 +1,99 @@
+.dashboard {
+  height: calc(100vh - 3.05em);
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 25% 60% 15%;
+      grid-template-columns: 25% 60% 15%;
+}
+
+.dashboard__one {
+  border-right: 1px solid #ddd;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-rows: 40% 60%;
+      grid-template-rows: 40% 60%;
+}
+
+.dashboard__one__top {
+  border-bottom: 1px solid #ddd;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.dashboard__one__top div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 90%;
+  row-gap: .5em;
+}
+
+.dashboard__one__top div small {
+  font-weight: 900;
+}
+
+.dashboard__one__top div input {
+  font-size: 1rem;
+  padding: .2em .5em;
+}
+
+.dashboard__one__top div input:focus {
+  outline: none;
+}
+
+.dashboard__one__top div button {
+  font-size: 1rem;
+  padding: .2em 0;
+  background-color: #000;
+  color: white;
+  cursor: pointer;
+  border: 1px solid #000;
+  -webkit-transition: background 300ms ease, border 300ms ease;
+  transition: background 300ms ease, border 300ms ease;
+}
+
+.dashboard__one__top div button:hover {
+  background-color: #3d3c3c;
+  border: 1px solid #3d3c3c;
+}
+
+.dashboard__two {
+  border-right: 1px solid #ddd;
+  padding: 1em;
+  margin: 0;
+}
+
+.task__item {
+  padding: .5em;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  background-color: #ddd;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 5% 95%;
+      grid-template-columns: 5% 95%;
+  height: 20vh;
+  margin-bottom: 1em;
+}
+
+.task__item span:nth-child(2) h3 {
+  margin: 0;
+  font-weight: 900;
+}
+
+.task__item span:nth-child(2) p {
+  color: gray;
+  font-size: .9rem;
+}
+/*# sourceMappingURL=dashboard.css.map */
