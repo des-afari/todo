@@ -72,19 +72,38 @@
   border-right: 1px solid #ddd;
   padding: 1em;
   margin: 0;
+  overflow-y: scroll;
+}
+
+.dashboard__two::-webkit-scrollbar {
+  width: 10px;
+}
+
+.dashboard__two::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+.dashboard__two::-webkit-scrollbar-thumb {
+  background: #888;
+}
+
+.dashboard__two::-webkit-scrollbar-thumb:hover {
+  background: #555;
 }
 
 .task__item {
   padding: .5em;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
-  background-color: #ddd;
+  background-color: whitesmoke;
   display: -ms-grid;
   display: grid;
   -ms-grid-columns: 5% 95%;
       grid-template-columns: 5% 95%;
   height: 20vh;
   margin-bottom: 1em;
+  border: 1px solid #c5bbbb;
+  cursor: pointer;
 }
 
 .task__item span:nth-child(2) h3 {
@@ -127,15 +146,25 @@
 
 .choose__date {
   padding: .5em;
+  margin-top: .5em;
+  overflow-y: scroll;
+  margin-bottom: .5em;
+}
+
+.choose__date::-webkit-scrollbar {
+  width: 0;
 }
 
 .date__item {
-  height: 15vh;
-  background-color: #ddd;
+  height: 10vh;
+  background-color: whitesmoke;
   display: -ms-grid;
   display: grid;
   -ms-grid-columns: 22% 78%;
       grid-template-columns: 22% 78%;
+  cursor: pointer;
+  border: 1px solid #c5bbbb;
+  margin-bottom: 1em;
 }
 
 .date__item span:nth-child(1) {
@@ -145,9 +174,9 @@
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  -webkit-box-align: baseline;
-      -ms-flex-align: baseline;
-          align-items: baseline;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 .date__item span:nth-child(1) h1 {
@@ -155,17 +184,16 @@
 }
 
 .date__item span:nth-child(2) {
+  width: 100%;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  width: 100%;
-  background-color: red;
-}
-
-.date__item span:nth-child(2) p {
-  justify-self: flex-end;
-  -ms-flex-item-align: end;
-      align-self: flex-end;
-  margin: 0;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border-left: 1px solid #c5bbbb;
 }
 /*# sourceMappingURL=dashboard.css.map */

@@ -37,6 +37,51 @@ const Dashboard = () => {
                         <CheckBox />
                     </span>
                     <span>
+                        <h3>Go to School</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt pariatur nisi numquam ad iure voluptas voluptate facilis aspernatur quo cupiditate, in reprehenderit alias ducimus odit magni? Ipsa quam rerum sint!</p>
+                    </span>
+                </li>
+                <li className='task__item'>
+                    <span>
+                        <CheckBox />
+                    </span>
+                    <span>
+                        <h3>Go to School</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt pariatur nisi numquam ad iure voluptas voluptate facilis aspernatur quo cupiditate, in reprehenderit alias ducimus odit magni? Ipsa quam rerum sint!</p>
+                    </span>
+                </li>
+                <li className='task__item'>
+                    <span>
+                        <CheckBox />
+                    </span>
+                    <span>
+                        <h3>Go to School</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt pariatur nisi numquam ad iure voluptas voluptate facilis aspernatur quo cupiditate, in reprehenderit alias ducimus odit magni? Ipsa quam rerum sint!</p>
+                    </span>
+                </li>
+                <li className='task__item'>
+                    <span>
+                        <CheckBox />
+                    </span>
+                    <span>
+                        <h3>Go to School</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt pariatur nisi numquam ad iure voluptas voluptate facilis aspernatur quo cupiditate, in reprehenderit alias ducimus odit magni? Ipsa quam rerum sint!</p>
+                    </span>
+                </li>
+                <li className='task__item'>
+                    <span>
+                        <CheckBox />
+                    </span>
+                    <span>
+                        <h3>Go to School</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt pariatur nisi numquam ad iure voluptas voluptate facilis aspernatur quo cupiditate, in reprehenderit alias ducimus odit magni? Ipsa quam rerum sint!</p>
+                    </span>
+                </li>
+                <li className='task__item'>
+                    <span>
+                        <CheckBox />
+                    </span>
+                    <span>
                         <h3>Go to Church</h3>
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt pariatur nisi numquam ad iure voluptas voluptate facilis aspernatur quo cupiditate, in reprehenderit alias ducimus odit magni? Ipsa quam rerum sint!</p>
                     </span>
@@ -55,6 +100,38 @@ const Dashboard = () => {
                     </span>
                 </div>
                 <ul className='choose__date'>
+                    <li className='date__item'>
+                        <span>
+                            <h1>31</h1>
+                        </span>
+                        <span>
+                            <p>Monday</p>
+                        </span>
+                    </li>
+                    <li className='date__item'>
+                        <span>
+                            <h1>31</h1>
+                        </span>
+                        <span>
+                            <p>Monday</p>
+                        </span>
+                    </li>
+                    <li className='date__item'>
+                        <span>
+                            <h1>31</h1>
+                        </span>
+                        <span>
+                            <p>Monday</p>
+                        </span>
+                    </li>
+                    <li className='date__item'>
+                        <span>
+                            <h1>31</h1>
+                        </span>
+                        <span>
+                            <p>Monday</p>
+                        </span>
+                    </li>
                     <li className='date__item'>
                         <span>
                             <h1>31</h1>
